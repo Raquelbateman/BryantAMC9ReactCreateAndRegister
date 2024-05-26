@@ -2,7 +2,7 @@
 
 <b>Name: </b> Alicia Bryant<br>
 <b>Project: </b>React Create and Register<br>
-<b>Date: </b> 05/5/2024 <br>
+<b>Date: </b> 05/25/2024 <br>
 <strong>Description: </strong><br>
 
 Create a Register component:Must have first name, last name, email, password and confirm password<br>
