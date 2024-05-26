@@ -5,15 +5,15 @@
 <b>Date: </b> 05/5/2024 <br>
 <strong>Description: </strong><br>
 
-<b>Create a Register component:Must have first name, last name, email, password and confirm password<br>
+Create a Register component:Must have first name, last name, email, password and confirm password<br>
 
-<b>Create a Login component: Must have email and password<br>
+Create a Login component: Must have email and password<br>
 
-<b>Both components must have validation.<br>
+Both components must have validation.<br>
 
-<b>Style the components<br>
+Style the components<br>
 
-<b>You can use any form we have gone over in class and any validation we have gone over in class<br>
+You can use any form we have gone over in class and any validation we have gone over in class<br>
 
 
 <b>GitHub :</b>https://github.com/Raquelbateman/BryantAMC9ReactCreateAndRegister<br><br>
