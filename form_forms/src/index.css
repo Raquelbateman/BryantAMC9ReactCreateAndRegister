@@ -4,7 +4,7 @@ body{
     background-color: rgb(53, 50, 50);
     background-image: url("./media/images/geoBackground.jpg");
     font-family: "Merriweather", serif;
-    color:antiquewhite;
+    color:black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,7 +13,7 @@ body{
 }
 
 .myContainer {
-    background-color: hsla(238, 89%, 17%, 0.611);
+    background-color: hsla(0, 0%, 100%, 0.911);
     position: absolute;
     top: 33%;
     left:50%;
@@ -36,6 +36,7 @@ body{
 }
 
 #submitButton{
-    color:#19239C;
+    background-color:black;
     color:antiquewhite;
+    border-color: #9659F2;
 }
