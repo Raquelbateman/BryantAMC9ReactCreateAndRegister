@@ -1,7 +1,12 @@
 body{
     background-color: rgb(53, 50, 50);
+    background-image: url("./media/images/geoBackground.jpg");
     color:antiquewhite;
-  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:600px;
+   
 }
 
 .myContainer {
