@@ -32,7 +32,7 @@ const FormUseState = () => {
             Confirm Password
           </label>
           <input type="text" id="confirmPassword" className="form-control" />
-          <button className="mt-3 btn btn-primary" type="submit">
+          <button className="mt-3 btn btn-primary"  id="submitButton" type="submit">
             Submit
           </button>
           </div>

@@ -34,3 +34,8 @@ body{
     width: 500px;
     margin-left: 9%;
 }
+
+#submitButton{
+    color:#19239C;
+    color:antiquewhite;
+}
