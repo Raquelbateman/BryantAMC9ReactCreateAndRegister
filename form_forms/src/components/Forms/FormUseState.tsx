@@ -1,9 +1,10 @@
 const FormUseState = () => {
   return (
     <>
-      <h1 className="text-center">Registration Form</h1>
       <form>
         <div className="mb-3 myContainer">
+        <h1 className="text-center" id="signUp">Sign Up Here</h1>
+          <div className="inputFields">
           <div className="row">
             <div className="col">
               <label htmlFor="" className="form-label">
@@ -34,6 +35,7 @@ const FormUseState = () => {
           <button className="mt-3 btn btn-primary" type="submit">
             Submit
           </button>
+          </div>
         </div>
       </form>
     </>
