@@ -13,7 +13,7 @@ body{
 }
 
 .myContainer {
-    background-color: hsla(0, 0%, 100%, 0.911);
+    background-color: rgba(255, 255, 255, 0.91);
     position: absolute;
     top: 33%;
     left:50%;
@@ -37,6 +37,11 @@ body{
 
 #submitButton{
     background-color:black;
-    color:antiquewhite;
+    color: #ffffffe8;
     border-color: #9659F2;
 }
+
+#submitButton:hover {
+    background-color:linear-gradient(to right,#e002e3,#9659F2,#8765EF);
+    color: #ffffffe8;
+  }
