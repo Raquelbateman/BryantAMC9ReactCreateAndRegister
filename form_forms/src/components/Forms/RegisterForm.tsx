@@ -6,8 +6,8 @@ import { FieldValue, FieldValues, useForm } from "react-hook-form";
 
 const RegisterForm = () => {
 
-    const {register, handleSubmit,formState} = useForm()
-    console.log(formState);
+    const {register, handleSubmit,formState:{errors}} = useForm()
+    console.log(errors);
 
     const onHelpSubmit = (data:FieldValues) => {
       console.log(data);
@@ -26,7 +26,8 @@ const RegisterForm = () => {
                 <label  className="form-label">
                   First Name
                 </label>
-                <input {...register('firstname')} type="text" id="firstName" className="form-control" />
+                <input {...register('firstname',{required: true, minLength :3})} type="text" id="firstName" className="form-control" />
+                {errors.firstname?.type === 'required'? <p>The name field is required</p>: null}
               </div>
               <div className="col">
                 <label className="form-label">
