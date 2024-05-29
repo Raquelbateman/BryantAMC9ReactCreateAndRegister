@@ -27,16 +27,16 @@ const RegisterForm = () => {
                   First Name
                 </label>
                 <input {...register('firstname',{required: true, minLength :3})} type="text" id="firstName" className="form-control" />
-                {errors.firstname?.type === 'required'? <p className="text-danger">The name field is required</p>: null}
-                {errors.firstname?.type === 'minLength'? <p className="text-danger">Name must be atleast 3 characters</p>:null}
+                {errors.firstname?.type === 'required'&& <p className="text-danger">Name field is required</p>}
+                {errors.firstname?.type === 'minLength' && <p className="text-danger">Name must be atleast 3 characters</p>}
               </div>
               <div className="col">
                 <label className="form-label">
                   Last Name
                 </label>
                 <input {...register('lastname',{required: true, minLength :3})} type="text" id="lastName" className="form-control" />
-                {errors.lastname?.type === 'required' ? <p className="text-danger">The name field is required</p> : null}
-                {errors.lastname?.type === 'minLength'? <p className="text-danger">Name must be atleast 3 characters</p>: null}
+                {errors.lastname?.type === 'required' && <p className="text-danger">Name field is required</p>}
+                {errors.lastname?.type === 'minLength' && <p className="text-danger">Name must be atleast 3 characters</p>}
               </div>
             </div>
             <label htmlFor="" className="form-label">
