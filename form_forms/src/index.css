@@ -46,3 +46,7 @@ body{
     background-image: linear-gradient(to right, #e002e3, #9659F2);
     color: #ffffff;
 }
+
+p{
+    font-size: small;
+}

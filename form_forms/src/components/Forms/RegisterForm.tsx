@@ -28,6 +28,7 @@ const RegisterForm = () => {
                 </label>
                 <input {...register('firstname',{required: true, minLength :3})} type="text" id="firstName" className="form-control" />
                 {errors.firstname?.type === 'required'? <p className="text-danger">The name field is required</p>: null}
+                {errors.firstname?.type === 'minLength'? <p className="text-danger">Name must be atleast 3 characters</p>:null}
               </div>
               <div className="col">
                 <label className="form-label">
@@ -35,6 +36,7 @@ const RegisterForm = () => {
                 </label>
                 <input {...register('lastname',{required: true, minLength :3})} type="text" id="lastName" className="form-control" />
                 {errors.lastname?.type === 'required' ? <p className="text-danger">The name field is required</p> : null}
+                {errors.lastname?.type === 'minLength'? <p className="text-danger">Name must be atleast 3 characters</p>: null}
               </div>
             </div>
             <label htmlFor="" className="form-label">
