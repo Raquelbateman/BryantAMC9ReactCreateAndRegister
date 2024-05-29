@@ -1,5 +1,8 @@
+import { zodResolver } from "@hookform/resolvers/zod";
 import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
+
+
 
 const schema = z.object({
     firstname: z.string().min(3),
@@ -16,7 +19,7 @@ type FormData = z.infer<typeof schema>
 
 const RegisterZodForm = () => {
  
-     const {register, handleSubmit,formState:{errors}} = useForm<FormData>()
+     const {register, handleSubmit,formState:{errors}} = useForm<FormData>({resolver:zodResolver(schema)})
     console.log(errors);
 
     const onHelpSubmit = (data:FieldValues) => {
