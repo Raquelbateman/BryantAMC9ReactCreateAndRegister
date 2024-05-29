@@ -1,4 +1,4 @@
-const FormUseState = () => {
+const LoginForm = () => {
   return (
     <>
       <form>
@@ -42,4 +42,4 @@ const FormUseState = () => {
   );
 };
 
-export default FormUseState;
+export default LoginForm;
