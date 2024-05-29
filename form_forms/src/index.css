@@ -42,6 +42,6 @@ body{
 }
 
 #submitButton:hover {
-    background-color:linear-gradient(to right,#e002e3,#9659F2,#8765EF);
-    color: #ffffffe8;
-  }
+    background-image: linear-gradient(to right, #e002e3, #9659F2);
+    color: #ffffff;
+}

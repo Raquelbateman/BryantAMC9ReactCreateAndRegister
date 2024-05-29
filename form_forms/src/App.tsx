@@ -1,5 +1,6 @@
 
 import FormUseState from './components/Forms/FormUseState'
+import RegisterForm from './components/Forms/RegisterForm'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     <>
     
     < FormUseState/>
+    {/* < RegisterForm/> */}
     
     
     
