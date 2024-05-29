@@ -5,21 +5,28 @@ import { useForm } from "react-hook-form";
 
 
 const RegisterForm = () => {
+
+    const {register, handleSubmit} = useForm()
+    console.log(register('name'));
+
+    
     return (
       <>
-        <form>
+
+        <form onSubmit={handleSubmit(data => console.log(data)
+        )}>
           <div className="mb-3 myContainer">
           <h1 className="text-center" id="signUp">Login</h1>
             <div className="inputFields">
             <div className="row">
               <div className="col">
-                <label htmlFor="" className="form-label">
+                <label  className="form-label">
                   First Name
                 </label>
                 <input type="text" id="firstName" className="form-control" />
               </div>
               <div className="col">
-                <label htmlFor="" className="form-label">
+                <label className="form-label">
                   Last Name
                 </label>
                 <input type="text" id="lastName" className="form-control" />
