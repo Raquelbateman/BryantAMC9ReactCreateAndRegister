@@ -9,20 +9,6 @@ const LoginForm = () => {
         <div className="mb-3 myContainer">
         <h1 className="text-center" id="signUp">Login</h1>
           <div className="inputFields">
-          <div className="row">
-            <div className="col">
-              <label htmlFor="" className="form-label">
-                First Name
-              </label>
-              <input type="text" id="firstName" className="form-control" />
-            </div>
-            <div className="col">
-              <label htmlFor="" className="form-label">
-                Last Name
-              </label>
-              <input type="text" id="lastName" className="form-control" />
-            </div>
-          </div>
           <label htmlFor="" className="form-label">
             Email
           </label>

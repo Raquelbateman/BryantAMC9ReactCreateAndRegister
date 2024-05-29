@@ -5,8 +5,11 @@ import { z } from "zod";
 
 
 const schema = z.object({
-    firstname: z.string().min(3),
-    lastname: z.string().min(3)
+    firstname: z.string().min(3,{message: "Name must be at least 3 characters"}),
+    lastname: z.string().min(3,{message: "Name must be at least 3 characters"})
+    // email:z.email().min(),
+    // password: password,
+    // confirmpassword: confirmpassword
 })
 
 type FormData = z.infer<typeof schema>
@@ -40,19 +43,19 @@ const RegisterZodForm = () => {
                   First Name
                 </label>
                 <input {...register('firstname')} type="text" id="firstName" className="form-control" />
-                {errors.firstname?.type === 'required'&& <p className="text-danger">Name field is required</p>}
-                {errors.firstname?.type === 'minLength' && <p className="text-danger">Name must be atleast 3 characters</p>}
+                {errors.firstname && <p className="text-danger">{errors.firstname.message}</p>}
+    
               </div>
               <div className="col">
                 <label className="form-label">
                   Last Name
                 </label>
                 <input {...register('lastname')} type="text" id="lastName" className="form-control" />
-                {errors.lastname?.type === 'required' && <p className="text-danger">Name field is required</p>}
-                {errors.lastname?.type === 'minLength' && <p className="text-danger">Name must be atleast 3 characters</p>}
+                {errors.lastname && <p className="text-danger">{errors.lastname.message}</p>}
+               
               </div>
             </div>
-            <label htmlFor="" className="form-label">
+            {/* <label htmlFor="" className="form-label">
               Email
             </label>
             <input {...register('email')} type="email" id="email" className="form-control" />
@@ -63,7 +66,7 @@ const RegisterZodForm = () => {
             <label htmlFor="" className="form-label">
               Confirm Password
             </label>
-            <input {...register('confirmpassword')}type="password" id="confirmPassword" className="form-control" />
+            <input {...register('confirmpassword')}type="password" id="confirmPassword" className="form-control" /> */}
             <button className="mt-3 btn btn-primary"  id="submitButton" type="submit">
               Submit
             </button>
