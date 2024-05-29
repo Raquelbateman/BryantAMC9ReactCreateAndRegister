@@ -6,8 +6,8 @@ import { FieldValue, FieldValues, useForm } from "react-hook-form";
 
 const RegisterForm = () => {
 
-    const {register, handleSubmit} = useForm()
-    console.log(register('name'));
+    const {register, handleSubmit,formState} = useForm()
+    console.log(formState);
 
     const onHelpSubmit = (data:FieldValues) => {
       console.log(data);

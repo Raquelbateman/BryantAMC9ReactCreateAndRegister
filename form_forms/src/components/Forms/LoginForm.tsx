@@ -28,14 +28,9 @@ const LoginForm = () => {
           </label>
           <input type="text" id="email" className="form-control" />
           <label htmlFor="" className="form-label">
-            Password
+            Enter Password
           </label>
           <input type="text" id="password" className="form-control" />
-          <label htmlFor="" className="form-label">
-            {" "}
-            Confirm Password
-          </label>
-          <input type="text" id="confirmPassword" className="form-control" />
           <button className="mt-3 btn btn-primary"  id="submitButton" type="submit">
             Submit
           </button>
