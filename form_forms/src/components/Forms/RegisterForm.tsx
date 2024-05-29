@@ -19,7 +19,7 @@ const RegisterForm = () => {
 
         <form onSubmit={handleSubmit(onHelpSubmit)}>
           <div className="mb-3 myContainer">
-          <h1 className="text-center" id="signUp">Login</h1>
+          <h1 className="text-center" id="signUp">Register</h1>
             <div className="inputFields">
             <div className="row">
               <div className="col">
