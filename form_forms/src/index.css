@@ -39,6 +39,7 @@ body{
     background-color:black;
     color: #ffffffe8;
     border-color: #9659F2;
+    border-width: 2px;
 }
 
 #submitButton:hover {
