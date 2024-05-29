@@ -6,16 +6,17 @@ const schema = z.object({
     lastname: z.string().min(3)
 })
 
-interface FormData{
-    firstname:string,
-    lastname:string
+type FormData = z.infer<typeof schema>
+// interface FormData{
+//     firstname:string,
+//     lastname:string
 
-}
+// }
 
 
 const RegisterZodForm = () => {
  
-     const {register, handleSubmit,formState:{errors}} = useForm()
+     const {register, handleSubmit,formState:{errors}} = useForm<FormData>()
     console.log(errors);
 
     const onHelpSubmit = (data:FieldValues) => {
