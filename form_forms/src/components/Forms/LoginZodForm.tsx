@@ -4,7 +4,7 @@ import { z } from "zod";
 
 const schema = z.object({
 
-  email: z.string().trim().toLowerCase().email(),
+  email: z.string().trim().toLowerCase().email({ message: "Invalid Email" }),
   password: z
     .string()
     .trim()
