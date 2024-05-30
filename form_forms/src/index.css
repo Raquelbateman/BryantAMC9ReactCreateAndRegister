@@ -68,3 +68,7 @@ p{
     margin-top: 10px;
     text-decoration: none;
 }
+
+#boa:hover {
+    color: #e002e3;
+}
