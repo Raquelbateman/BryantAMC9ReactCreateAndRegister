@@ -19,11 +19,11 @@ const schema = z.object({
     .trim()
     .min(8, { message: "Password must contain at least 8 characters" })
 })
-    .refine((data) => data.password === data.confirmpassword, {
-        message: "Password must match",
-        path: ["confirmPassword"],
+.refine((data) => data.password === data.confirmpassword, {
+        message: "Passwords must match",
+        path: ["confirmpassword"],
     
-})
+});
 
 
 type FormData = z.infer<typeof schema>;
