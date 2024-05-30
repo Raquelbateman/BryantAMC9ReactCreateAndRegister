@@ -20,8 +20,8 @@ You can use any form we have gone over in class and any validation we have gone 
 <br>
   
 
-<b>Peer Reviewed by:</b>  <br>
-<b>Comments:</b> <br>
+<b>Peer Reviewed by:</b> Aaron Perez <br>
+<b>Comments:</b> The Zod validations work for all fields on the Login and Register form. Nice Styling, really brings the page all together. Nice surprise with the a link. Great Work.!!!! <br>
 
 <br>
 <br>
