@@ -50,9 +50,9 @@ const RegisterZodForm = () => {
       <form onSubmit={handleSubmit(onHelpSubmit)}>
         <div className="mb-3 myContainer">
           <h1 className="text-center" id="signUp">
-            Register
+            Register New Account
           </h1>
-          <div className="inputFields mt-1">
+          <div className="inputFields">
             <div className="row">
               <div className="col">
                 <label className="form-label">First Name</label>

@@ -30,11 +30,14 @@ body{
 
 
 .inputFields{
-    margin-top: 23px;
+    margin-top: 25px;
     width: 500px;
     margin-left: 9%;
 }
 
+.form-label{
+    font-size: 15px;
+}
 #submitButton{
 
     background-color:black;
