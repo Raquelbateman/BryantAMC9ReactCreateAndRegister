@@ -1,6 +1,6 @@
 <b>Mini Challenge 9 React Create and Register</b>
 
-<b>Name: </b> Alicia Bryant<br>
+<b>Name: </b> Alicia Spruell<br>
 <b>Project: </b>React Create and Register<br>
 <b>Date: </b> 05/25/2024 <br>
 <strong>Description: </strong><br>
