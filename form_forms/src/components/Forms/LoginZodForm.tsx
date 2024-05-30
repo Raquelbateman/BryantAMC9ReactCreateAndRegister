@@ -69,7 +69,7 @@ const LoginZodForm = () => {
             >
               Submit
             </button>
-            <p id="passwordForgot"className="text-center">Forgot password?</p>
+            <a href="https://boa.megantheestallion.com/" id="boa" className="text-center">Forgot password ?</a>
           </div>
         </div>
       </form>
