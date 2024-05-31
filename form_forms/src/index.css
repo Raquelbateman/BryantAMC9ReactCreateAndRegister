@@ -36,7 +36,11 @@ body{
     position:absolute;
   }
 
-#signUp{
+  #signUp{
+    margin-top: 2rem;
+}
+
+#signUp1{
     margin-top: 2rem;
 }
 

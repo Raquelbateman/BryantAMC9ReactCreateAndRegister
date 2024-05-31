@@ -31,7 +31,7 @@ const LoginZodForm = () => {
     <>
       <form onSubmit={handleSubmit(onHelpSubmit)} >
         <div className="mb-3 myContainer1">
-          <h1 className="text-center" id="signUp">
+          <h1 className="text-center" id="signUp1">
             Login
           </h1>
           <div className="inputFields">
