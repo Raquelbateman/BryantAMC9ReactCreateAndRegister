@@ -110,7 +110,7 @@ const RegisterZodForm = () => {
                 <p className="text-danger">{errors.confirmpassword.message}</p>
               )}
             <button
-              className="mt-2 btn btn-primary"
+              className="mt-1 btn btn-primary"
               id="submitButton"
               type="submit"
             >
