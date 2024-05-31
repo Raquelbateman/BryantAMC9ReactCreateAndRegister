@@ -5,10 +5,10 @@ import { z } from "zod";
 const schema = z.object({
   firstname: z
     .string()
-    .min(3, { message: "First name must be at least 3 characters" }),
+    .min(2, { message: "First name must be at least 3 characters" }),
   lastname: z
     .string()
-    .min(3, { message: "Last name must be at least 3 characters" }),
+    .min(2, { message: "Last name must be at least 3 characters" }),
   email: z.string().trim().toLowerCase().email(),
   password: z
     .string()

@@ -24,20 +24,33 @@ body{
     position:absolute;
   }
 
+  .myContainer1 {
+    background-color: rgba(255, 255, 255, 0.91);
+    position: absolute;
+    top: 33%;
+    left:50%;
+    transform: translate(-50%,-30%);
+    width: 620px;
+    height:450px;
+    border-radius: 5%;
+    position:absolute;
+  }
+
 #signUp{
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 
 .inputFields{
-    margin-top: 25px;
+    margin-top: 1rem;
     width: 500px;
-    margin-left: 9%;
+    margin-left: 4rem;
 }
 
 .form-label{
     font-size: 15px;
 }
+
 #submitButton{
 
     background-color:black;

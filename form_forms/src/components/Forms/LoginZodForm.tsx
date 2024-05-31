@@ -4,7 +4,7 @@ import { z } from "zod";
 
 const schema = z.object({
 
-  email: z.string().trim().toLowerCase().email({ message: "Invalid Email" }),
+  email: z.string().trim().toLowerCase().email(),
   password: z
     .string()
     .trim()
@@ -30,7 +30,7 @@ const LoginZodForm = () => {
   return (
     <>
       <form onSubmit={handleSubmit(onHelpSubmit)} >
-        <div className="mb-3 myContainer">
+        <div className="mb-3 myContainer1">
           <h1 className="text-center" id="signUp">
             Login
           </h1>
